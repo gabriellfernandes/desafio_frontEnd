@@ -1,15 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import "./App.css";
-import { Calculator } from "./components/Calculator";
-import { Anticipation } from "./components/Anticipation";
+import { Home } from "./pages/Home";
+import { HomeContextComponent } from "./context/Home";
 
 function App() {
   return (
-    <div style={{ display: "flex" }}>
-      <Calculator />
-      <Anticipation />
-    </div>
+    <HomeContextComponent>
+      <Home />
+    </HomeContextComponent>
   );
 }
 

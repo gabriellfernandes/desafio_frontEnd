@@ -6,7 +6,8 @@ export const ContainerAnticipation = styled.div`
   align-items: center;
   justify-content: center;
   width: 200px;
-  gap: 20px;
+  margin-left: 40px;
+  gap: 25px;
 
   .containerAnticipation__title {
     font-family: "Source Sans Pro";

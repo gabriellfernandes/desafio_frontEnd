@@ -34,6 +34,9 @@ export const ContainerInput = styled.div`
   }
 
   .containerInput__input {
+    ::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+    }
     font-size: 14px;
     height: 35px;
     border-radius: 4px;
